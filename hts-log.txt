@@ -1,0 +1,26 @@
+HTTrack3.49-2 launched on Thu, 08 Dec 2022 17:41:20 at https://www.purecinema.tv/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.purecinema.tv/ -O "/Users/diogoteixeira/documents/Site Produtora" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:41:46	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://www.purecinema.tv/)
+17:46:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.purecinema.tv/wp-content/themes/pure-cinema/build/main.js?ver=30d6d04e84b2fa0d1c61a0559861eb23
+17:47:08	Warning: 	HTML file (26749 bytes) retransferred due to lack of cache: https://www.purecinema.tv/jonny/
+17:47:11	Warning: 	HTML file (26969 bytes) retransferred due to lack of cache: https://www.purecinema.tv/like-non-other/
+17:47:13	Warning: 	HTML file (33363 bytes) retransferred due to lack of cache: https://www.purecinema.tv/privacy-policy/
+17:48:38	Warning: 	HTML file (27453 bytes) retransferred due to lack of cache: https://www.purecinema.tv/backyard-bbq/
+17:48:41	Warning: 	HTML file (27733 bytes) retransferred due to lack of cache: https://www.purecinema.tv/real-hasta-la-muerte/
+17:48:43	Warning: 	HTML file (33609 bytes) retransferred due to lack of cache: https://www.purecinema.tv/its-quiet-out-here/
+17:48:45	Warning: 	HTML file (34016 bytes) retransferred due to lack of cache: https://www.purecinema.tv/evolution-of-the-dj/
+17:48:47	Warning: 	HTML file (26463 bytes) retransferred due to lack of cache: https://www.purecinema.tv/workforit/
+17:48:49	Warning: 	HTML file (26493 bytes) retransferred due to lack of cache: https://www.purecinema.tv/the-ballerina/
+17:48:51	Warning: 	HTML file (26623 bytes) retransferred due to lack of cache: https://www.purecinema.tv/your-story-is-our-story/
+17:48:53	Warning: 	HTML file (37098 bytes) retransferred due to lack of cache: https://www.purecinema.tv/dignity/
+17:48:55	Warning: 	HTML file (29832 bytes) retransferred due to lack of cache: https://www.purecinema.tv/your-voice-is-a-force/
+17:48:57	Warning: 	HTML file (26881 bytes) retransferred due to lack of cache: https://www.purecinema.tv/briket-done-righteous/
+
+HTTrack Website Copier/3.49-2 mirror complete in 29 minutes 0 seconds : 295 links scanned, 436 files written (93452574 bytes overall) [51453771 bytes received at 29571 bytes/sec], 2311630 bytes transferred using HTTP compression in 63 files, ratio 23%, 2.7 requests per connection
+(1 errors, 14 warnings, 0 messages)
